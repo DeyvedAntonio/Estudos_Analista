@@ -14,3 +14,14 @@ exponenciacao = a ** b
 modulo = a % b
 divisao_chao = b // a
 
+# tipos de dados
+lista = []
+tupla = ()
+dicionario = {}
+
+# comando Built-in
+print(round(divisao, 3))
+print(len(str(multiplicacao)))
+
+# fatiamento
+string = 'Como usar fatiamento no Python'
