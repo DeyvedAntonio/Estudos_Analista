@@ -25,3 +25,7 @@ print(len(str(multiplicacao)))
 
 # fatiamento
 string = 'Como usar fatiamento no Python'
+print(string[0:5])
+print(string[0:-1])
+print(string[-12:-2])
+print(string[0:])
