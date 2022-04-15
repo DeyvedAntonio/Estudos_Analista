@@ -34,7 +34,14 @@ print(string[0:])
 manipulacao1 = string.replace('fatiamento', 'manipulação')
 manipulacao2 = string.startswith('Python')
 manipulacao3 = string.endswith('Python')
+manipulacao4 = string.count(manipulacao1)
+manipulacao5 = string.capitalize()
+manipulacao6 = string.isdigit()
+manipulacao7 = string.isalnum()
+manipulacao8 = string.upper()
+manipulacao9 = string.lower()
+manipulacao10 = string.find('o')
 
 
-
-print(manipulacao1, manipulacao2, manipulacao3)
+print(manipulacao1, manipulacao2, manipulacao3, manipulacao4, manipulacao5, manipulacao6)
+print(manipulacao7, manipulacao8, manipulacao9, manipulacao10)
