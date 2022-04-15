@@ -29,3 +29,12 @@ print(string[0:5])
 print(string[0:-1])
 print(string[-12:-2])
 print(string[0:])
+
+# manipulação de strings
+manipulacao1 = string.replace('fatiamento', 'manipulação')
+manipulacao2 = string.startswith('Python')
+manipulacao3 = string.endswith('Python')
+
+
+
+print(manipulacao1, manipulacao2, manipulacao3)
