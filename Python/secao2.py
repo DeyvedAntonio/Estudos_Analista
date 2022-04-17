@@ -45,3 +45,19 @@ manipulacao10 = string.find('o')
 
 print(manipulacao1, manipulacao2, manipulacao3, manipulacao4, manipulacao5, manipulacao6)
 print(manipulacao7, manipulacao8, manipulacao9, manipulacao10)
+
+# Operadores de comparação
+operador1 = 1
+operador2 = 2
+operador3 = 3
+operador4 = 2
+
+print('==', operador1 == operador4)
+print('==', operador2 == operador4)
+print('!=', operador3 != operador1)
+print('!=', operador2 != operador4)
+print('>', operador2 > operador1)
+print('>', operador3 > operador4)
+print('<', operador2 < operador4)
+print('>=', operador1 >= operador3)
+print('<=', operador1 <= operador2)
