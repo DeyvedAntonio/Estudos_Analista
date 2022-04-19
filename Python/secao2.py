@@ -73,3 +73,12 @@ print('or', opera1 or opera2)
 print('or', opera2 or opera2)
 print('not', not opera2)
 print('not', not opera1)
+
+# operadores de associação
+
+lista = ('Abacate', 1, 3, 5.5)
+print("como" in string)
+print('operador1' in string)
+print(operador1 not in lista)
+print(operador2 not in lista)
+
