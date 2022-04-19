@@ -61,3 +61,15 @@ print('>', operador3 > operador4)
 print('<', operador2 < operador4)
 print('>=', operador1 >= operador3)
 print('<=', operador1 <= operador2)
+
+# operadores lógicos
+
+opera1 = True
+opera2 = False
+
+print('and', opera1 and opera2)
+print('and', opera1 and opera1)
+print('or', opera1 or opera2)
+print('or', opera2 or opera2)
+print('not', not opera2)
+print('not', not opera1)
