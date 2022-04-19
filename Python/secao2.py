@@ -82,3 +82,10 @@ print('operador1' in string)
 print(operador1 not in lista)
 print(operador2 not in lista)
 
+# operadores identidade
+
+string2 = 'Teste de comportamento'
+
+print(string is string2)
+print(string is string)
+
