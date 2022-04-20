@@ -98,3 +98,12 @@ print(dia_hoje)
 
 data = datetime.datetime.today()
 print(data.strftime('%d/%m/%y'))
+
+# pacote time
+
+import time
+
+print(1)
+time.sleep(3)
+print(5)
+print(time.time())
