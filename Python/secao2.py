@@ -89,3 +89,12 @@ string2 = 'Teste de comportamento'
 print(string is string2)
 print(string is string)
 
+# pacote datetime
+
+import datetime
+
+dia_hoje = datetime.datetime.today()
+print(dia_hoje)
+
+data = datetime.datetime.today()
+print(data.strftime('%d/%m/%y'))
