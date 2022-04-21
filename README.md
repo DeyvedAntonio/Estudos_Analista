@@ -2,7 +2,7 @@
 [![](https://img.shields.io/github/license/deyvedantonio/readme_atrativo)](https://github.com/DeyvedAntonio/Estudos_Analista/blob/main/LICENSE)
 
 ## Sobre os projetos
-Repositório para guardar materiais de cursos realizados enquanto estudo para me tornar um analista de dados. O projeto é dividido em três ferramentas [Python](https://github.com/DeyvedAntonio/Estudos_Analista/edit/main/README.md#python-para-an%C3%A1lise-de-dados), [SQL](https://github.com/DeyvedAntonio/Estudos_Analista/edit/main/README.md#sql-para-ci%C3%AAncia-de-dados) e [Power BI](https://github.com/DeyvedAntonio/Estudos_Analista/edit/main/README.md#power-bi).
+Repositório para guardar materiais de cursos realizados enquanto estudo para me tornar um analista de dados. O projeto é dividido em três ferramentas [Python](https://github.com/DeyvedAntonio/Estudos_Analista#python-para-an%C3%A1lise-de-dados), [SQL](https://github.com/DeyvedAntonio/Estudos_Analista#sql-para-ci%C3%AAncia-de-dados) e [Power BI](https://github.com/DeyvedAntonio/Estudos_Analista#power-bi).
 
 # Python para Análise de dados
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
