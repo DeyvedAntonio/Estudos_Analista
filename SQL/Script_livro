@@ -29,3 +29,7 @@ SELECT * FROM station_data WHERE month IN (3, 6, 9, 12);
 SELECT * FROM station_data WHERE month % 3 = 0;
 
 SELECT * FROM station_data WHERE month % 3 == 0;
+
+SELECT * FROM station_data WHERE report_code = '513A63';
+
+SELECT * FROM station_data WHERE report_code IN ('513A63', '1F8A7B', 'EF616A');
