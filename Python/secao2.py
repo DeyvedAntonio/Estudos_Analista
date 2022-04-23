@@ -104,6 +104,41 @@ print(data.strftime('%d/%m/%y'))
 import time
 
 print(1)
-time.sleep(3)
+time.sleep(0.01)
 print(5)
 print(time.time())
+
+# pacote math
+
+import math
+
+tupla = (10, 5, 20, 30, 40)
+print(min(tupla))
+print(max(tupla))
+print(abs(-7.25))
+print(pow(3, 4))
+print(pow(tupla[2], 2))
+print(math.sqrt(81))
+print(math.ceil(1.6))
+print(math.floor(1.4))
+print(math.pi)
+
+# pacote random
+
+import random
+
+lista = [1, 2, 3, 4, 5, 6, 7, 8]
+print(random.choice(lista))
+print(random.random())
+print(random.randint(1, 10))
+
+# pacote statistics
+
+import statistics
+
+lista = [12, 15, 28, 56, 78, 80]
+print(sum(lista)/len(lista))
+print(statistics.mean(lista))
+print(statistics.median(lista))
+print(statistics.mode(lista))
+
