@@ -142,3 +142,39 @@ print(statistics.mean(lista))
 print(statistics.median(lista))
 print(statistics.mode(lista))
 
+# condicional IF
+
+if opera1 == True:
+    print('Verdade')
+else:
+    print('Falso')
+
+if opera1 == opera2:
+    print('Operadores com valores lógicos iguais')
+else:
+    print('Operadores com valores lógicos diferentes')
+
+if opera1 and opera2:
+    print(True)
+elif (opera1 and opera2) or opera2:
+    print(True)
+else:
+    print(False)
+
+# laço for
+
+for i in lista:
+    print(i)
+
+lista_pais = ['Brasil', 'Argentina', 'Uruguai', 'Paraguai', 'Bolivia', 'Chile']
+
+for pais in lista_pais:
+    print(pais)
+    print(pais.upper())
+    print(pais.upper()[0:3])
+    if pais == 'Uruguai':
+        print('É bicampeão mundial')
+
+for loop in range(len(lista_pais)):
+    print(lista_pais[loop])
+
