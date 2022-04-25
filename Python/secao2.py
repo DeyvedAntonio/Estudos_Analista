@@ -178,3 +178,26 @@ for pais in lista_pais:
 for loop in range(len(lista_pais)):
     print(lista_pais[loop])
 
+# loop while
+
+loop = 0
+while loop <= 10:
+    print(loop)
+    if loop == 5:
+        for x in range(10):
+            print(x)
+    loop += 1
+
+lista = ['morango', 'pera', 'uva', 'abacaxi']
+for fruta in lista:
+    print(fruta)
+    if fruta == 'uva':
+        break
+
+loop = 0
+for loop in range(9, 10):
+    if loop == 5:
+        continue
+        print('isso é ignorado')
+    print(loop)
+
