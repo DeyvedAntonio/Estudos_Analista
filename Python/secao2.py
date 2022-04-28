@@ -42,7 +42,6 @@ manipulacao8 = string.upper()
 manipulacao9 = string.lower()
 manipulacao10 = string.find('o')
 
-
 print(manipulacao1, manipulacao2, manipulacao3, manipulacao4, manipulacao5, manipulacao6)
 print(manipulacao7, manipulacao8, manipulacao9, manipulacao10)
 
@@ -137,7 +136,7 @@ print(random.randint(1, 10))
 import statistics
 
 lista = [12, 15, 28, 56, 78, 80]
-print(sum(lista)/len(lista))
+print(sum(lista) / len(lista))
 print(statistics.mean(lista))
 print(statistics.median(lista))
 print(statistics.mode(lista))
@@ -201,3 +200,46 @@ for loop in range(9, 10):
         print('isso é ignorado')
     print(loop)
 
+
+# funções
+
+def boas_vindas():
+    print('****** PYTHON ******')
+
+
+boas_vindas()
+
+# função lambda
+
+funcao_soma = lambda valor: valor + 10
+print(funcao_soma(4))
+
+exemplo = lambda valor: 'Verdadeiro' if valor % 2 == 0 else 'falso'
+print(exemplo(4))
+
+# estrutura try
+
+try:
+    0 / 0
+except:
+    print('Não é possível fazer uma divisão por zero')
+finally:
+    print('Muito obrigado')
+
+
+# Classes
+
+class Pessoa:
+    def __init__(self, nome, idade):
+        # método construtor da classe
+        self.nome = nome
+        self.idade = idade
+
+    def maior_idade(self):
+        if self.idade >= 18:
+            print(f'{self.nome} é maior de idade')
+        else:
+            print(f'{self.nome} é menor de idade')
+
+
+Pessoa.maior_idade(Pessoa('João', 23))
