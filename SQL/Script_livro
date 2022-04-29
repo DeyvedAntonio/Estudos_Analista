@@ -33,3 +33,23 @@ SELECT * FROM station_data WHERE month % 3 == 0;
 SELECT * FROM station_data WHERE report_code = '513A63';
 
 SELECT * FROM station_data WHERE report_code IN ('513A63', '1F8A7B', 'EF616A');
+
+SELECT * FROM station_data WHERE LENGTH(report_code) != 6;
+
+SELECT * FROM station_data WHERE report_code LIKE 'A%';
+
+SELECT * FROM station_data WHERE report_code LIKE 'B_C%';
+
+SELECT * FROM station_data WHERE tornado = true AND hail = true;
+
+SELECT * FROM station_data WHERE tornado AND hail;
+
+SELECT * FROM station_data WHERE precipitation <= .5;
+
+SELECT * FROM station_data WHERE snow_depth IS NULL;
+
+SELECT * FROM station_data WHERE COALESCE(precipitation, 0) <= .5;
+
+SELECT * FROM station_data WHERE rain = 1 AND temperature <= 32 OR snow_depth >0;
+
+SELECT * FROM station_data WHERE (rain = 1 AND temperature <= 32) OR snow_depth >0;
