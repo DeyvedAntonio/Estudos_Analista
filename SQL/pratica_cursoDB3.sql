@@ -21,4 +21,16 @@ CREATE TABLE veiculos
     CONSTRAINT fk_veiculo_funcionario FOREIGN KEY (funcionario_id) REFERENCES funcionarioS(id)
 );
 
--- CREATE TABLE salarios
+CREATE TABLE salarios
+(
+	faixa VARCHAR(45) NOT NULL,
+    inicio DOUBLE NOT NULL,
+    fim DOUBLE NOT NULL,
+    PRIMARY KEY(faixa)
+);
+
+ALTER TABLE funcionarios CHANGE COLUMN nome nome_func VARCHAR(50) NOT NULL;
+
+DROP TABLE salarios;
+
+CREATE INDEX departamentos ON funcionarios(departamento);
