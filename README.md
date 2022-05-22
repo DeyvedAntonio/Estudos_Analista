@@ -77,11 +77,9 @@ Empresas:
 ## Autor
 Deyved Antonio
 
-Linkedin:
-https://www.linkedin.com/in/deyved-antonio-161216122/
+[Linkedin](https://www.linkedin.com/in/deyved-antonio-161216122/)
 
-Medium:
-https://medium.com/@deyved.antonio
+[Medium](https://medium.com/@deyved.antonio)
 
 e-mail:
 deyved.antonio@gmail.com
